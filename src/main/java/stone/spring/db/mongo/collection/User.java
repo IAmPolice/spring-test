@@ -9,6 +9,7 @@ public class User {
 	String username;
 
 	String password;
+	int age;
 
 	public User(String username, String password) {
 		this.username = username;
@@ -29,5 +30,12 @@ public class User {
 	
 	public String getPassword() {
 		return this.password;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+	public int getAge() {
+		return this.age;
 	}
 }
